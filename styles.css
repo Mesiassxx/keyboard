@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    background-color: #c6b3d0;
+    width:  1000px;
+    margin: auto;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#app{
+    text-align: center;
+
+}
+  #keyboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 684px;
+    gap: 5px;
+    margin: 100px auto;
+  }
+  .layer {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+  }
+  .key {
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .key-normal {
+    width: 50px;
+    height: 50px;
+  }
+  .key-mayus {
+    width: 120px;
+    height: 50px;
+    background-color: #ecebe1;
+    color: #222;
+  }
+  .key-shift {
+    width: 80px;
+    height: 50px;
+    background-color: #ecebe1;
+    color: #222;
+  }
+  .key-space {
+    width: 400px;
+    height: 50px;
+    background-color: #ecebe1;
+  }
+  .key-empty {
+    width: 25px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .key:hover {
+    background-color: #555;
+  }
+  
+  .activated {
+    outline: #df7116 solid 2px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 2%;
+    font-size:5em;
+    margin: 50px auto;
+    display: block;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #555;
+    color: #ecebe1;
+    border-radius: 15px;
+  }
